@@ -1,32 +1,57 @@
-body{
-    background-image: url('imagem-4k-futurista-de-inteligencia-artificial-ai_894067-1058.avif');
-  
-    width: 100%;
+body {
+    background-image: url("pngtree-human-intelligence-ai-technology-png-image_14746534.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-
-
 }
 
 
-
-.titulo{
-
+.titulo {
     text-align: center;
-margin-top: 50px;
-
-
+    margin-top: 80px;
+    margin-bottom: 0;   
+    font-size: clamp(40px, 8vw, 100px); 
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); 
 }
 
-.frase{
-    
+
+.frase {
     text-align: center;
-    
-    }
-
-    .paragrafo{
-
-        padding-top: 200px;
-
+    margin-top: 5px; 
+    font-size: clamp(18px, 3vw, 35px);
+    font-weight: 300;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
 
 
-  }
+.paragrafo {
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+.paragrafo ol {
+    font-size: 24px;
+    line-height: 1.8;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+}
+
+
+.github {
+    color: #00d4ff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.github:hover {
+    text-decoration: underline;
+}
